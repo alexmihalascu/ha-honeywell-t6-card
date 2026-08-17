@@ -15,6 +15,11 @@ room: Dormitor
 
 The card provides live room and target temperatures, heating state, animated heat feedback, temperature controls, and Heat/Off modes.
 
+The dial mirrors the real T6 Pro: a square touchscreen unit with mode/wifi icons,
+a large digital readout, and dedicated up/down buttons beside the screen — not a
+rotary dial, which the real device doesn't have. Accent color is Honeywell blue
+when idle and switches to warm orange while actively heating.
+
 ## License
 
 MIT
