@@ -1,4 +1,4 @@
-const VERSION = "0.1.1";
+const VERSION = "0.1.2";
 
 class HoneywellT6Card extends HTMLElement {
   setConfig(config) {
@@ -9,7 +9,7 @@ class HoneywellT6Card extends HTMLElement {
 
   set hass(hass) { this._hass = hass; this.render(); }
   getCardSize() { return 6; }
-  getGridOptions() { return { columns: 12, rows: 6, min_columns: 6, min_rows: 5 }; }
+  getGridOptions() { return { columns: 12, rows: 7, min_columns: 6, min_rows: 6 }; }
 
   state() { return this._hass?.states[this.config.entity]; }
   current() { return Number(this.state()?.attributes.current_temperature); }
